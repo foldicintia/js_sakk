@@ -1,0 +1,32 @@
+
+main {
+    width: 50%;
+    margin:auto;
+    background-color: white;
+    padding: 30px;
+
+}
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+td {
+    width: 10vh;
+    height: 10vh;
+    border: 1px solid darkgray;
+}
+img {
+    width: 9vh;
+    height: 9vh;
+}
+.kep {
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+}
+/* tr:nth-child(odd) td:nth-child(even) {
+    background-color: lightgray;
+}
+tr:nth-child(even) td:nth-child(odd) {
+    background-color: lightgray;
+}
+ */
